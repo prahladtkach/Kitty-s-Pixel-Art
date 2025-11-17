@@ -1,0 +1,52 @@
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "Jersey 15", sans-serif;
+    background-image: linear-gradient(to top, #0d3a54, #69cec2);
+    /*background-image: linear-gradient(to top right, #2e010d, #95032a);*/
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tiny5", sans-serif;;
+}
+
+.bg-body-tertiary {
+--bs-bg-opacity: 0;
+}
+
+.col-md-8 {
+    color: #ffffff;
+}
+
+.display-5.fw-bold {
+    font-size: 3.5rem;
+}
+
+.btn-outline-danger {
+    color: #50067e;
+    border-color: #50067e;
+}
+
+.btn-outline-danger:hover {
+    color: #ffffff;
+    background-color: #50067e;
+    border-color: #50067e;
+}
+
+.btn-outline-danger:active {
+    background-color: #9112e0 !important;
+    border-color: #9112e0 !important;
+    color: white !important;
+}
